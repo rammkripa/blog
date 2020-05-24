@@ -64,6 +64,8 @@ Berkeley pollution detector?
 
     ## [1] 0.03564819
 
+Hence we can see that p value is <5% indicating that pollution did increase in a statistically significant manner!
+
 ### Post credits: Playing around with Maps xD
 
     library(ggmap)
