@@ -40,7 +40,7 @@ Let’s compare 2010 and 2019 in terms of air pollution.
       geom_point(data=berkeley2019,color="green",aes(x=Date,y=Daily.Mean.PM2.5.Concentration))+
       geom_point(data=berkeley2010,color="red",aes(x=Date,y=Daily.Mean.PM2.5.Concentration))
 
-![](posty_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![graph-one](posty_files/figure-markdown_strict/unnamed-chunk-2-1.png){:class="img-responsive"}
 
 ### Hypothesis test
 
@@ -106,4 +106,4 @@ Hence we can see that p value is <5% indicating that pollution did increase in a
       coord_fixed(1.3)+
       guides(fill=FALSE)
 
-![](posty_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![graph-two](posty_files/figure-markdown_strict/unnamed-chunk-4-1.png){:class="img-responsive"}
